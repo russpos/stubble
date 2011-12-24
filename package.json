@@ -1,0 +1,22 @@
+{
+  "author": "Russ Posluszny <russjp1985@gmail.com> (http://www.russposluszny.com/)",
+  "name": "stubble",
+  "description": "Unit-testing helper to replace \"require\" in tested code",
+  "version": "0.1.0",
+  "homepage": "https://github.com/russjp1985/stubble",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:russjp1985/stubble.git"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "jasmine-node --coffee ./spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "coffee-script" : "1.2.0"
+  },
+  "devDependencies": {}
+}

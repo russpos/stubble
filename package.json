@@ -2,7 +2,7 @@
   "author": "Russ Posluszny <russjp1985@gmail.com> (http://www.russposluszny.com/)",
   "name": "stubble",
   "description": "Unit-testing helper to replace \"require\" in tested code",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/russjp1985/stubble",
   "repository": {
     "type": "git",

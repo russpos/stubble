@@ -1,5 +1,5 @@
 # Stubble!
-
+![Travis-CI Status](https://secure.travis-ci.org/russjp1985/stubble.png)
 Stubble is a tool for `node.js` to help aid in your unit testing.  Stubble allows you
 to require your source files in such a way that you can stub out any requirements you
 choose to.
@@ -43,7 +43,7 @@ like this:
 Now that you have your `Stubble` instance, you can use this to require your
 module and make assertions against it.
 
-    var returned = stub.require('./server');
+    var returned = stub.require(__dirname+'/server');
     describe('server', function() {
 
       it('creates a server', function() {
@@ -70,6 +70,9 @@ You can even make specific assertions about the `require` calls that were made.
     expect(stub.required('path').toEqual(0);
 
 ## Testing
-Testing this package requires the global `jasmine-node` module.
+To run tests against this module, simply install all dependencies and run the package
+test script:
 
+    npm install -d # Only needs to be run once
+    npm test
 

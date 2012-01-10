@@ -162,5 +162,3 @@ class Stubble
     context.module.exports
 
 module.exports = Stubble
-
-

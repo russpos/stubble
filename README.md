@@ -38,7 +38,7 @@ like this:
         httpMock = {
           createServer: jasmine.createSpy('http.createServer').andReturn(server)
         },
-        stub = new Stubble(http: httpMock);
+        stub = new Stubble({http: httpMock});
 
 Now that you have your `Stubble` instance, you can use this to require your
 module and make assertions against it.
